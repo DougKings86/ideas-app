@@ -8,6 +8,7 @@ module.exports = {
     "password" : process.env.DB_PASSWORD,
     "database" : process.env.DB_DATABASE ,
     "synchronize" : true ,
+    "dropSchema" : false,
     "logging" : true,
-    "entities" : ["./src/**/*.entity.ts" , "./dist/**/*.entity.js"]
+    "entities" : ["dist/**/*.entity{.ts,.js}"]
 };

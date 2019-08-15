@@ -2,7 +2,7 @@
   "name": "idea-app",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Douglas Reis",
   "license": "MIT",
   "scripts": {
     "build": "rimraf dist && tsc -p tsconfig.build.json",
